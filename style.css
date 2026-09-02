@@ -5,9 +5,9 @@
 }
 
 body {
-    background-color: #0d1117;
+    background-color: #000000;
     color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,128 +15,88 @@ body {
 }
 
 .conteudo {
-    background-color: #161b22;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    width: 100%;
-    max-width: 450px;
+    width: 400px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
 }
 
 .conteudo-titulo {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .titulo-principal {
-    font-size: 1.8rem;
-    color: #58a6ff;
+    font-size: 24px;
+    margin-bottom: 5px;
 }
 
 .titulo-secundario {
-    font-size: 0.9rem;
-    color: #8b949e;
+    font-size: 14px;
+    color: #aaaaaa;
     font-weight: normal;
 }
 
 .conteudo-senha {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .conteudo-senha label {
-    margin-bottom: 0.5rem;
-    color: #8b949e;
+    margin-bottom: 8px;
 }
 
 #campo-senha {
-    background-color: #0d1117;
-    border: 1px solid #30363d;
-    border-radius: 6px;
-    padding: 0.8rem;
-    color: #2f81f7;
-    font-size: 1.2rem;
-    font-family: monospace;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
     text-align: center;
-    outline: none;
 }
 
 .parametro {
-    margin-bottom: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .parametro-titulo {
-    font-size: 1rem;
-    margin-bottom: 0.8rem;
-    border-bottom: 1px solid #30363d;
-    padding-bottom: 0.3rem;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .parametro-coluna {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 15px;
 }
 
 .parametro-senha__botao {
-    background-color: #238636;
-    color: white;
-    border: none;
-    width: 32px;
-    height: 32px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
-    font-size: 1.2rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
     cursor: pointer;
-    transition: 0.2s;
-}
-
-.parametro-senha__botao:hover {
-    background-color: #2ea043;
 }
 
 .parametro-senha__texto {
-    font-size: 1.4rem;
+    font-size: 20px;
     font-weight: bold;
-}
-
-.parametro-checkbox {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 .barra-forca {
     width: 100%;
-    height: 10px;
-    background-color: #30363d;
-    border-radius: 5px;
+    height: 12px;
+    background-color: #333333;
+    border-radius: 6px;
     overflow: hidden;
-    margin-bottom: 0.5rem;
 }
 
 .forca {
+    width: 30%;
     height: 100%;
-    width: 0%;
-    transition: width 0.3s ease, background-color 0.3s ease;
-}
-
-.fraca {
-    background-color: #f85149;
-}
-
-.media {
-    background-color: #d29922;
-}
-
-.forte {
-    background-color: #2ea043;
-}
-
-.entropia {
-    font-size: 0.85rem;
-    color: #8b949e;
-    text-align: right;
+    background-color: #ff4d4d;
 }
