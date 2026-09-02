@@ -6,8 +6,8 @@ const btnAumentar = document.querySelector('#aumentar');
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 let tamanhoSenha = 12;
 
-btnDiminuir.addEventListener('click', diminuirTamanho);
-btnAumentar.addEventListener('click', aumentarTamanho);
+btnDiminuir.onclick = diminuirTamanho;
+btnAumentar.onclick = aumentarTamanho;
 
 function diminuirTamanho() {
     if (tamanhoSenha > 1) {
